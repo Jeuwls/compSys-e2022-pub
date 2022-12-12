@@ -1,6 +1,6 @@
 # Simulatoropgaven (A5, CompSys 2022)
 
-Finn Schiermer Andersen, november 2022, foreløbig udgave
+Finn Schiermer Andersen, rev 1.0, 6. december.
 
 Denne opgave stilles mandag den 5. december og skal afleveres kl 12 søndag den 18. december.
 
@@ -24,9 +24,9 @@ Der udleveres nogle programmer som skal afvikles på simulatoren. Disse programm
 
 Besvarelsen skal indeholde:
 
-* En kort rapport
-* Implementationen af simulerings-funktionen
-* Dokumentation for kørsel af programmer på simulatoren
+* En kort rapport (20%)
+* Implementationen af simulerings-funktionen (40%)
+* Dokumentation for kørsel af programmer på simulatoren (40%)
 
 Hvis de udleverede programmer ikke kan bringes til at køre på simulatoren, skal det klart
 fremgå af besvarelsen og der skal gøres et systematisk forsøg på at klarlægge hvilke
@@ -183,3 +183,8 @@ riscv32-unknown-elf-objdump -S test.riscv >> test.dis
 
 Vi udleverer en Makefile som kan drive oversættelsen - men bemærk at den skal tilpasses
 til den lokale installation, før den kan bruges.
+
+## Gode råd
+
+Bare brug integers til så meget som muligt. Der er ikke brug for f.eks. "struct" erklæringer.
+Læs op på hvordan man i C bruger skifte operationer og bitvis and/or til at "fiske" bitfelter ud af tal.
