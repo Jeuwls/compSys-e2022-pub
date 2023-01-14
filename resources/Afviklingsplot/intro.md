@@ -1,7 +1,6 @@
 ## Introduktion
 
-Nedenfor ses et afviklingsplot for fire instruktioner på en fem-trins pipeline med
-fuld forwarding svarende til beskrivelsen i [COD p. 317] (det er ikke det samme program som i COD)
+Nedenfor ses et afviklingsplot for fire instruktioner på en fem-trins pipeline med fuld forwarding svarende til beskrivelsen i [COD p. 317] (det er ikke det samme program som i COD)
 
 ~~~
                         0  1  2  3  4  5  6  7  8
@@ -11,9 +10,8 @@ sw   x11,0(x14)               Fe Fe De Ex Mm Wb
 addi x10,x10,1                      Fe De Ex Mm Wb
 ~~~
 
-Instruktionerne står til venstre, en per linie, og programmet afvikles oppefra og ned. 
-Tiden går fra venstre mod højre og udtrykkes i clock-cykler. Af diagrammet kan man 
-aflæse tidspunktet for hver aktivitet for hver instruktion.
+Instruktionerne står til venstre, en per linie, og programmet afvikles oppefra og ned.
+Tiden går fra venstre mod højre og udtrykkes i clock-cykler. Af diagrammet kan man aflæse tidspunktet for hver aktivitet for hver instruktion.
 
 Programstumpen har en IPC på 0.8 på den simple pipeline. 
 
